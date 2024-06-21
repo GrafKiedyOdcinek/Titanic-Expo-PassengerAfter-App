@@ -6,7 +6,7 @@ import TRAITDROIT from "../assets/ornement-trait-droite.png";
 
 const Ornement = () => {
   return (
-    <div className="flex justify-between mt-2 fixed bottom-0 left-0 w-full p-5">
+    <div className="flex justify-between mt-10 ">
       <div className="ornement-gauche">
         <img src={ORNGAUCHE} alt="" />
       </div>
