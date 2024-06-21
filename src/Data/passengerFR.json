@@ -560,7 +560,8 @@
         "survived": false,
         "image": "",
         "description": "Martta Hiltunen was born in Kuopio, Finland, situated among the lakes and forests of Finnish Lakeland. At some point in her life, her family relocated to Kontiolahti, but they stayed firmly situated in the lake district, as the village is surrounded by 183 lakes. Martta was educated while living in Kontiolahti, and at age 18 she prepared to emigrate to the United States. She had received work as a housekeeper with the Hämäläinen family. Anna Hämäläinen was destined for Detroit, Michigan with her 1 year-old son Vilho, to meet with her husband who was working there as a metal beater. Martta’s passport enabled her to work in the U.S. for five years, where she would be the Hämäläinens housekeeper.Like many other Finnish immigrants, Martta and her employer traveled aboard the steamship Polaris, traveling the Hangö-Copenhagen-Hull route. The route took travelers around the southern tip of Sweden and back up past Denmark to reach Hull on the eastern coast of England, passing through the Baltic Sea and the North Sea before they’d even reached Southampton.However, unlike most of the other Finnish passengers aboard Titanic, Martta traveled with her employer and her son in second class. As such was one of only six Finnish passengers aboard not traveling in third class. ",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -571,7 +572,8 @@
         "survived": false,
         "image": "",
         "description": "Annie Clemmer Funk was born in Bally, Pennsylvania on April 12, 1874. She was a part of a highly religious Mennonite community, and was a highly religious person from a young age, and was dedicated to the service of the church’s mission. Her life’s dream was to become a missionary. In 1906, after spending some years working with churches and charitable organizations around the U.S., Annie’s dream came true, and Annie was selected to travel on a mission to India. However, when her selected companion was unable to join her, Annie chose to make the trip alone, becoming the first single female Mennonite missionary to be sent overseas. In India she was based in Janjgir-Champa, Chhattisgarh, where she began to learn Hindi. In 1908 she opened a one room girls’ school.Annie received an urgent telegram from her Pastor in 1912, informing her that her mother was ill. The church had already procured her passage home on two ships, and Annie set off at once. Her first ship arrived in Liverpool, though due to the coal strike she had to change her ticket back the U.S. to one aboard the Titanic, though in her urgency to get home to see her mother, she was likely unconcerned by the change.",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -582,7 +584,8 @@
         "survived": false,
         "image": "",
         "description": "Annie Clemmer Funk was born in Bally, Pennsylvania on April 12, 1874. She was a part of a highly religious Mennonite community, and was a highly religious person from a young age, and was dedicated to the service of the church’s mission. Her life’s dream was to become a missionary. In 1906, after spending some years working with churches and charitable organizations around the U.S., Annie’s dream came true, and Annie was selected to travel on a mission to India. However, when her selected companion was unable to join her, Annie chose to make the trip alone, becoming the first single female Mennonite missionary to be sent overseas. In India she was based in Janjgir-Champa, Chhattisgarh, where she began to learn Hindi. In 1908 she opened a one room girls’ school.Annie received an urgent telegram from her Pastor in 1912, informing her that her mother was ill. The church had already procured her passage home on two ships, and Annie set off at once. Her first ship arrived in Liverpool, though due to the coal strike she had to change her ticket back the U.S. to one aboard the Titanic, though in her urgency to get home to see her mother, she was likely unconcerned by the change.",
-        "history": "In memory of Miss Funk, the school she had founded in Janjgir, India was named the 'Annie C. Funk Memorial Girl's School.' Sufficient memorial gifts were given by friends in America to enlarge the school and add a two story dormitory for boarding students. (Titanica entry)"
+        "history": "In memory of Miss Funk, the school she had founded in Janjgir, India was named the 'Annie C. Funk Memorial Girl's School.' Sufficient memorial gifts were given by friends in America to enlarge the school and add a two story dormitory for boarding students. (Titanica entry)",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -593,7 +596,8 @@
         "survived": false,
         "image": "",
         "description": "Mary Corey (née Miller,) was born in Pennsylvania in August 1879. She grew up in and around Pittsburgh as the eldest of nine siblings, Mary took work as a schoolteacher at the Westlake School before marrying Percy Corey in 1911. Corey’s work as a superintendent with a petroleum company took him to Burma (now called Myanmar,) where his wife joined him. Mary got pregnant while staying with her husband abroad, but decided to return to Pennsylvania to give birth. One of Corey’s workers at the petroleum company had a wife in a similar condition: a woman named Claire Karnes. As Mrs. Karnes was also from Pittsburgh the two pregnant ladies decided to travel together. The two made their way to Great Britain and procured a second class berth aboard Titanic. Fellow second class passenger Lawrence Beesley wrote of Mary and Claire, having sat near them in the second class library: Close beside me--so near I cannot avoid hearing scraps of their conversations--are two American ladies, both dressed in white, young, probably friends only: one had been to India and is returning by way of England, the other is a schoolteacher in America, a graceful girl with a distinguished air heightened by a pair of pince-nez. Perhaps the two ladies had selected the Titanic in hopes that the highly touted comforts of White Star’s second class compartments would make the trials of traveling while pregnant more tolerable.",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -604,7 +608,8 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -615,7 +620,8 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -626,7 +632,8 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -637,7 +644,8 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -648,7 +656,8 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     },
     {
         "passengerID": 39,
@@ -659,6 +668,7 @@
         "survived": "",
         "image": "",
         "description": "",
-        "history": ""
+        "history": "",
+        "class": "Seconde classe"
     }
 ]
