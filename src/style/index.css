@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background: #0d1625;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+
+.passenger-img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  justify-content: center;
+
+  img {
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    max-height: 130px;
+    max-width: 130px;
+    width: 100%;
+  }
+}
+
+.passenger-img-profile {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+  }
+}
+
+.active {
+  color: white;
+  font-weight: 600;
+}
+
+.active-filter {
+  background: #fff;
+  color: #0d1625;
+}
+
+.slide-enter {
+  opacity: 0;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in-out, transform 600ms ease-in-out;
+}
+
+.slide-exit {
+  opacity: 1;
+}
+
+.slide-exit-active {
+  opacity: 0;
+}
