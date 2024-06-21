@@ -66,6 +66,14 @@ const PassengerProfile = () => {
     localStorage.setItem("language", lang);
   };
 
+  const getSurvivalStatus = () => {
+    if (language === "FR") {
+      return passenger.survived ? "Survivant" : "Décédé";
+    } else {
+      return passenger.survived ? "Survived" : "Lost";
+    }
+  };
+
   return (
     <div className="p-4">
       <header className="flex justify-between items-center gap-4">
@@ -149,7 +157,7 @@ const PassengerProfile = () => {
               </h1>
               <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
                 <p className="border rounded-full py-3 px-10 w-[40%] text-center">
-                  {passenger.survived ? "Saved" : "Lost"}
+                  {getSurvivalStatus()}
                 </p>
                 <p className="border rounded-full py-3 px-10 w-[60%] text-center">
                   {passenger.role}
