@@ -86,7 +86,7 @@ const PassengerProfile = () => {
           <Popover placement="bottom-end">
             <PopoverHandler>
               <button>
-                <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
+                <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center p-[30px]">
                   <p className="text-black">{language}</p>
                 </div>
               </button>
