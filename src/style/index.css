@@ -81,3 +81,17 @@ h1 {
 .slide-exit-active {
   opacity: 0;
 }
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #bdc3c9 radial-gradient(circle, transparent 1%, #2a557c 1%)
+    center/15000%;
+}
+.ripple:active {
+  background-color: #ffffff;
+  background-size: 100%;
+  transition: background 0s;
+}

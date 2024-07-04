@@ -94,7 +94,7 @@ function App() {
         <div className="grade flex gap-4">
           <button
             onClick={() => handleClassFilter("First Class")}
-            className={`grade1 border rounded-full min-w-[70px] p-2 text-center ${
+            className={`grade1 ripple border rounded-full min-w-[70px] p-2 text-center ${
               classFilter === "First Class" ? "active-filter" : ""
             }`}
           >
@@ -102,7 +102,7 @@ function App() {
           </button>
           <button
             onClick={() => handleClassFilter("Second Class")}
-            className={`grade2 border rounded-full min-w-[70px] p-2 text-center ${
+            className={`grade2 ripple border rounded-full min-w-[70px] p-2 text-center ${
               classFilter === "Second Class" ? "active-filter" : ""
             }`}
           >
@@ -110,7 +110,7 @@ function App() {
           </button>
           <button
             onClick={() => handleClassFilter("Third Class")}
-            className={`grade3 border rounded-full min-w-[70px] p-2 text-center ${
+            className={`grade3 ripple border rounded-full min-w-[70px] p-2 text-center ${
               classFilter === "Third Class" ? "active-filter" : ""
             }`}
           >
@@ -118,7 +118,7 @@ function App() {
           </button>
           <button
             onClick={() => handleClassFilter("Staff")}
-            className={`grade4 border rounded-full min-w-[70px] p-2 text-center ${
+            className={`grade4 ripple border rounded-full min-w-[70px] p-2 text-center ${
               classFilter === "Staff" ? "active-filter" : ""
             }`}
           >
@@ -127,7 +127,7 @@ function App() {
           {classFilter !== "All" && (
             <button
               onClick={() => handleClassFilter("All")}
-              className="clear-filter border rounded-full min-w-[70px] p-2 text-center bg-red-300"
+              className="clear-filter border rounded-full min-w-[70px] p-2 text-center bg-red-300 ripple"
             >
               <i className="fa-solid fa-filter-circle-xmark"></i> Reset Filter
             </button>

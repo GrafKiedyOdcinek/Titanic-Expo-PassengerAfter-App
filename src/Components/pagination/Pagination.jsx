@@ -14,7 +14,7 @@ const Pagination = ({
       {currentPage > 1 && (
         <button
           onClick={() => handlePagination(currentPage - 1)}
-          className="text-gray-500"
+          className="text-gray-500 ripple"
         >
           <i className="fa-solid fa-chevron-left"></i>
         </button>
@@ -34,7 +34,7 @@ const Pagination = ({
       {currentPage < paginationNumber.length && (
         <button
           onClick={() => handlePagination(currentPage + 1)}
-          className="text-gray-500"
+          className="text-gray-500 ripple"
         >
           <i className="fa-solid fa-chevron-right"></i>
         </button>
