@@ -25,7 +25,7 @@ const Pagination = ({
         <button
           key={number}
           onClick={() => handlePagination(number)}
-          className={currentPage === number ? "active" : "text-gray-500"}
+          className={currentPage === number ? "active" : "text-gray-500 ripple"}
         >
           {number}
         </button>

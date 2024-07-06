@@ -156,21 +156,21 @@ const PassengerProfile = () => {
                 {passenger.name}
               </h1>
               <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
-                <p className=" py-3 px-10 w-[40%] text-center">
+                <p className=" py-3 px-10 w-[40%] text-center times">
                   {getSurvivalStatus()}
                 </p>
-                <p className=" py-3 px-10 w-[60%] text-center">
+                <p className=" py-3 px-10 w-[60%] text-center times">
                   {passenger.role}
                 </p>
               </div>
 
-              <p className=" py-3 px-10">
+              <p className=" py-3 px-10 leading-8">
                 <strong>
                   {language === "EN" ? "Biography : " : "Biographie : "}
                 </strong>{" "}
                 {passenger.description}
               </p>
-              <p className=" py-3 px-10">
+              <p className=" py-3 px-10 leading-8">
                 <strong>
                   {language === "EN"
                     ? "Post Iceberg : "

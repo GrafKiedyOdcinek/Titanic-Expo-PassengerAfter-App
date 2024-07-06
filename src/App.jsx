@@ -14,6 +14,7 @@ import passengerDataEN from "./Data/passengerEN.json";
 import passengerDataFR from "./Data/passengerFR.json";
 import DefaultPicture from "./assets/default.png";
 import Ornement from "./Components/Ornement";
+import FullScreenButton from "./Components/FullScreen";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -129,7 +130,8 @@ function App() {
               onClick={() => handleClassFilter("All")}
               className="clear-filter border rounded-full min-w-[70px] p-2 text-center bg-red-300 ripple"
             >
-              <i className="fa-solid fa-filter-circle-xmark"></i> Reset Filter
+              <i className="fa-solid fa-filter-circle-xmark"></i>{" "}
+              {language === "FR" ? " Effacer" : " Clear"}
             </button>
           )}
         </div>
@@ -146,7 +148,7 @@ function App() {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
               <label className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-white leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-white peer-focus:text-white before:border-white peer-focus:before:!border-white after:border-white peer-focus:after:!border-white">
-                Search
+                {language === "FR" ? "Rechercher" : "Search"}
               </label>
             </div>
           </div>
@@ -203,7 +205,7 @@ function App() {
                 <Link
                   to={`/passenger/${passenger?.passengerID}`}
                   key={passenger?.name}
-                  className="flex flex-col items-center gap-2 w-full"
+                  className="flex flex-col items-center gap-2 w-full ripple"
                 >
                   <div className="passenger-img">
                     <img
@@ -216,7 +218,11 @@ function App() {
               </div>
             ))
           ) : (
-            <p>No result for this search</p>
+            <p>
+              {language === "FR"
+                ? "Pas de résultat pour cette recherche"
+                : "No result for this search"}
+            </p>
           )}
         </div>
 
@@ -231,6 +237,7 @@ function App() {
           </div>
         )}
         <Ornement />
+        <FullScreenButton />
       </main>
     </div>
   );
