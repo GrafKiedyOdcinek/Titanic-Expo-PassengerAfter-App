@@ -14,6 +14,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 h1 {
@@ -113,4 +114,13 @@ h1 {
 
 .fullscreen-btn:hover {
   background-color: #45a049;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #0d1625;
+  width: 100%;
 }

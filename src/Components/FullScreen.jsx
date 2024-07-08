@@ -18,8 +18,8 @@ const FullScreenButton = () => {
       if (event.ctrlKey && event.key === "p") {
         event.preventDefault();
         toggleFullScreen();
-      } else if (event.key === "Escape") {
-        event.preventDefault(); // Empêche la sortie du plein écran avec Échap
+      } else if (event.key === "Escape" || event.key === "Esc") {
+        event.preventDefault();
       }
     };
 

@@ -152,14 +152,15 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
+
+              <p className=" py-3 px-10 w-[40%] text-center times">
+                {getSurvivalStatus()}
+              </p>
               <h1 className="text-3xl py-3 px-10 w-full text-center">
                 {passenger.name}
               </h1>
               <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
-                <p className=" py-3 px-10 w-[40%] text-center times">
-                  {getSurvivalStatus()}
-                </p>
-                <p className=" py-3 px-10 w-[60%] text-center times">
+                <p className=" py-3 px-10 w-full text-center times">
                   {passenger.role}
                 </p>
               </div>
@@ -189,7 +190,9 @@ const PassengerProfile = () => {
           )}
         </div>
       </main>
-      <Ornement />
+      <footer>
+        <Ornement />
+      </footer>
     </div>
   );
 };
