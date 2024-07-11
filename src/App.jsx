@@ -96,7 +96,7 @@ function App() {
       <OrnementLeft />
       <OrnementRight />
       <div className="flex justify-center">
-        <header className="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <header className="flex  sm:flex-row justify-center items-center gap-4 w-[65%]">
           <div className="grade flex gap-4">
             <button
               onClick={() => handleClassFilter("First Class")}
@@ -141,7 +141,7 @@ function App() {
             )}
           </div>
           <div className="search">
-            <div className="w-72">
+            <div className="w-80">
               <div className="relative w-full min-w-[200px] h-10">
                 <div className="absolute grid w-5 h-5 place-items-center text-white top-2/4 right-3 -translate-y-2/4">
                   <i className="fa-solid fa-magnifying-glass"></i>
