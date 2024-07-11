@@ -468,7 +468,7 @@
         "class": "Première classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 40,
         "grade": "Passenger",
         "name": "Joseph Philippe Lemercier Laroche",
         "age": 32,
@@ -480,7 +480,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 41,
         "grade": "Passenger",
         "name": "Masabumi Hasono",
         "age": 32,
@@ -492,7 +492,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 42,
         "grade": "Passenger",
         "name": "Wallce Henry Hartley",
         "age": 32,
@@ -504,7 +504,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 43,
         "grade": "Passenger",
         "name": "Edmund and Michel Navratil",
         "age": 32,
@@ -516,7 +516,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 44,
         "grade": "Passenger",
         "name": "William Theodore Ronald Brailey",
         "age": 32,
@@ -528,7 +528,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 45,
         "grade": "Passenger",
         "name": "Adāl Naṣr Allāh",
         "age": 32,
@@ -540,7 +540,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 46,
         "grade": "Passenger",
         "name": "Clear Annie Cameron",
         "age": 32,
@@ -552,7 +552,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 47,
         "grade": "Passenger",
         "name": "Martta Maria Hiltunen",
         "age": 32,
@@ -564,7 +564,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 48,
         "grade": "Passenger",
         "name": "Annie Clemmer Funk",
         "age": 32,
@@ -576,19 +576,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
-        "grade": "Passenger",
-        "name": "Annie Clemmer Funk",
-        "age": 32,
-        "role": "Passenger",
-        "survived": false,
-        "image": "",
-        "description": "Annie Clemmer Funk was born in Bally, Pennsylvania on April 12, 1874. She was a part of a highly religious Mennonite community, and was a highly religious person from a young age, and was dedicated to the service of the church’s mission. Her life’s dream was to become a missionary. In 1906, after spending some years working with churches and charitable organizations around the U.S., Annie’s dream came true, and Annie was selected to travel on a mission to India. However, when her selected companion was unable to join her, Annie chose to make the trip alone, becoming the first single female Mennonite missionary to be sent overseas. In India she was based in Janjgir-Champa, Chhattisgarh, where she began to learn Hindi. In 1908 she opened a one room girls’ school.Annie received an urgent telegram from her Pastor in 1912, informing her that her mother was ill. The church had already procured her passage home on two ships, and Annie set off at once. Her first ship arrived in Liverpool, though due to the coal strike she had to change her ticket back the U.S. to one aboard the Titanic, though in her urgency to get home to see her mother, she was likely unconcerned by the change.",
-        "history": "In memory of Miss Funk, the school she had founded in Janjgir, India was named the 'Annie C. Funk Memorial Girl's School.' Sufficient memorial gifts were given by friends in America to enlarge the school and add a two story dormitory for boarding students. (Titanica entry)",
-        "class": "Seconde classe"
-    },
-    {
-        "passengerID": 39,
+        "passengerID": 49,
         "grade": "Passenger",
         "name": "Mary Emma Corey",
         "age": 32,
@@ -600,7 +588,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 50,
         "grade": "Passenger",
         "name": "Emily Ester Louisa Hart",
         "age": 32,
@@ -612,7 +600,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 51,
         "grade": "Passenger",
         "name": "Alice Frances Louisa Phillips",
         "age": 32,
@@ -624,7 +612,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 52,
         "grade": "Passenger",
         "name": "Lawrence Beesley ",
         "age": 32,
@@ -636,7 +624,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 53,
         "grade": "Passenger",
         "name": "Father Byles",
         "age": 32,
@@ -648,7 +636,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 54,
         "grade": "Passenger",
         "name": "Henriette Virginie Yvois",
         "age": 32,
@@ -660,7 +648,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 55,
         "grade": "Passenger",
         "name": "René Jacuqes Lévy",
         "age": 32,
@@ -672,7 +660,7 @@
         "class": "Seconde classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 56,
         "grade": "Passenger",
         "name": "Mariyam Assāf Khalīl | Mariana Assaf | Maria (Mariam) Elias Wahba | Mikhail Assaf Taama",
         "age": 32,
@@ -684,7 +672,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 57,
         "grade": "Passenger",
         "name": "Catherine Mcgowan",
         "age": 32,
@@ -696,19 +684,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
-        "grade": "Passenger",
-        "name": "Catherine Mcgowan",
-        "age": 32,
-        "role": "Passenger",
-        "survived": false,
-        "image": "",
-        "description": "In 1911, Miss Catherine “Kate” Macgowan was living the American dream. She had emigrated from Ireland in the late 1800s, and by 42 owned a successful boarding house in Chicago. Kate returned home to County Mayo, Ireland for Christmas of 1911 to visit friends and family, intending to bring her 17 year-old niece Annie Mcgowan with her back to Chicago.  At a time when Ireland was stricken by a crushing lack of income, many County Mayo families already had members living abroad, and still more leaving by the day. Kate Mcgowan’s stories of the success she’d found in the States surely lit a fire under some of those who hadn’t yet emigrated. Kate’s good friend Catherine Bourke, along with her husband and sister in-law decided to join Kate and Annie on the crossing.  Seven young, unmarried women from the neighborhood had already planned to travel to America and chose to travel with Kate’s group in hopes that they would find safety in numbers. The last two members of the party were young men, both cousins of a few of the traveling women who were each hoping to join their siblings in America. The final group of fourteen consisted of cousins, siblings, and neighbors, all joining Miss Mcgowan's ferry to a brighter future.",
-        "history": "",
-        "class": "Troisième classe"
-    },
-    {
-        "passengerID": 39,
+        "passengerID": 58,
         "grade": "Passenger",
         "name": "Elin Hakkarainen",
         "age": 32,
@@ -720,7 +696,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 59,
         "grade": "Passenger",
         "name": "Jamīlah Nīqūla Yārid",
         "age": 32,
@@ -732,7 +708,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 60,
         "grade": "Passenger",
         "name": "Fang Lang |Wing Sun Fong | 方榮山",
         "age": 32,
@@ -744,7 +720,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 61,
         "grade": "Passenger",
         "name": "Sidney Leslie Goodwin",
         "age": 32,
@@ -756,7 +732,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 62,
         "grade": "Passenger",
         "name": "Catherine Katie Peters",
         "age": 32,
@@ -768,7 +744,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 63,
         "grade": "Passenger",
         "name": "David John 'Dai' Bowen",
         "age": 32,
@@ -780,7 +756,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 64,
         "grade": "Passenger",
         "name": "Halīm Mubārik",
         "age": 32,
@@ -792,7 +768,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 65,
         "grade": "Passenger",
         "name": "Al-Amīr Fāris Shihāb",
         "age": 32,
@@ -804,7 +780,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 66,
         "grade": "Passenger",
         "name": "As'ad Tannūs",
         "age": 32,
@@ -816,7 +792,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 67,
         "grade": "Passenger",
         "name": "Laṭīfah al-Ba'qlīnī",
         "age": 32,
@@ -828,7 +804,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 68,
         "grade": "Passenger",
         "name": "Saiide Barbara and Catherine David Barbara",
         "age": 32,
@@ -840,7 +816,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 69,
         "grade": "Passenger",
         "name": "The Andersson Family",
         "age": 32,
@@ -852,7 +828,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 70,
         "grade": "Passenger",
         "name": "Catherine Katie McCarthy",
         "age": 32,
@@ -864,7 +840,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 71,
         "grade": "Passenger",
         "name": "Julia Barry",
         "age": 32,
@@ -876,7 +852,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 72,
         "grade": "Passenger",
         "name": "Mohamed Badt",
         "age": 32,
@@ -888,7 +864,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 73,
         "grade": "Passenger",
         "name": "Ida Augusta Margareta Andersson",
         "age": 32,
@@ -900,7 +876,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 74,
         "grade": "Passenger",
         "name": "Choong Foo",
         "age": 32,
@@ -912,7 +888,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 75,
         "grade": "Passenger",
         "name": "Neshan Krekorian",
         "age": 32,
@@ -924,7 +900,7 @@
         "class": "Troisième classe"
     },
     {
-        "passengerID": 39,
+        "passengerID": 76,
         "grade": "Passenger",
         "name": "David Vartanian",
         "age": 32,
