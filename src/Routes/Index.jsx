@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import App from "../App";
 import PassengerProfile from "../Components/Cards/PassengerProfile";
-import PageTransition from "./PageTransition";
+// import PageTransition from "./PageTransition";
 
 const Index = () => {
   return (
