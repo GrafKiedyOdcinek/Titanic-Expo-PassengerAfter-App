@@ -134,7 +134,7 @@ const PassengerProfile = () => {
       <main {...handlers}>
         <div className="flex flex-col justify-center items-center">
           {passenger ? (
-            <div className="passenger-profile flex flex-col justify-center items-center gap-5 p-6 sm:max-w-[80%] md:max-w-[80%] lg:max-w-[70%]">
+            <div className="passenger-profile flex flex-col justify-center items-center gap-1 p-6 sm:max-w-[80%] md:max-w-[80%] lg:max-w-[70%]">
               <div className="flex gap-10 w-full justify-between items-center">
                 <button
                   onClick={() =>
@@ -164,11 +164,11 @@ const PassengerProfile = () => {
               <p className=" py-3 px-10 w-[40%] text-center times">
                 {getSurvivalStatus()}
               </p>
-              <h1 className="text-3xl py-3 px-10 w-full text-center">
+              <h1 className="text-3xl py-3 px-10 w-full text-center m-0">
                 {passenger.name}
               </h1>
               <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
-                <p className=" py-3 px-10 w-full text-center times">
+                <p className=" py-3 px-10 w-full text-center times m-0">
                   {passenger.role}
                 </p>
               </div>
