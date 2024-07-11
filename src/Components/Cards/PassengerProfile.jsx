@@ -128,7 +128,9 @@ const PassengerProfile = () => {
           </div>
         </header>
       </div>
-      <div className="separator border mt-6"></div>
+      <div className="flex justify-center">
+        <div className="separator border mt-6 w-[80%]"></div>
+      </div>
       <main {...handlers}>
         <div className="flex flex-col justify-center items-center">
           {passenger ? (
