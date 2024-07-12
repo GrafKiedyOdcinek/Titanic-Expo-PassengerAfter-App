@@ -233,8 +233,6 @@ function App() {
             </p>
           )}
         </div>
-      </main>
-      <footer>
         {filteredData.length > postsPerPage && (
           <div className="pagination flex justify-center gap-4 mt-4 items-center">
             <Pagination
@@ -245,6 +243,8 @@ function App() {
             />
           </div>
         )}
+      </main>
+      <footer>
         <Ornement />
         <FullScreenButton />
       </footer>
