@@ -10,15 +10,16 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import passengerDataEN from "./Data/passengerEN.json";
-import passengerDataFR from "./Data/passengerFR.json";
 import DefaultPicture from "./assets/default.png";
 import Ornement from "./Components/Ornement";
 import FullScreenButton from "./Components/FullScreen";
 import OrnementLeft from "./Components/OrnementLeft";
 import OrnementRight from "./Components/OrnementRight";
+import useTranslations from "./hooks/useTranslations";
+import { getTranslation } from "./hooks/Translaations";
 
 function App() {
+  const { translations, languages } = useTranslations();
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(20);
   const [searchTerm, setSearchTerm] = useState("");
@@ -32,23 +33,14 @@ function App() {
 
   useEffect(() => {
     const loadData = () => {
-      if (language === "FR") {
-        setData(passengerDataFR);
-      } else {
-        setData(passengerDataEN);
+      if (translations[language]) {
+        setData(translations[language]);
       }
     };
     loadData();
-  }, [language]);
+  }, [language, translations]);
 
   useEffect(() => {
-    const classMapping = {
-      "First Class": language === "FR" ? "Première Classe" : "First Class",
-      "Second Class": language === "FR" ? "Seconde Classe" : "Second Class",
-      "Third Class": language === "FR" ? "Troisième Classe" : "Third Class",
-      Staff: language === "FR" ? "Équipage" : "Staff",
-    };
-
     const filtered = data.filter((passenger) => {
       const matchesSearch = passenger.name
         .toLowerCase()
@@ -56,7 +48,7 @@ function App() {
       const matchesClass =
         classFilter === "All" ||
         passenger.class.toLowerCase() ===
-          classMapping[classFilter].toLowerCase();
+          getTranslation(classFilter, language).toLowerCase();
       return matchesSearch && matchesClass;
     });
     setFilteredData(filtered);
@@ -100,43 +92,43 @@ function App() {
           <div className="grade flex gap-4">
             <button
               onClick={() => handleClassFilter("First Class")}
-              className={`grade1 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade1 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "First Class" ? "active-filter" : ""
               }`}
             >
-              1st
+              {getTranslation("First Class", language)}
             </button>
             <button
               onClick={() => handleClassFilter("Second Class")}
-              className={`grade2 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade2 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Second Class" ? "active-filter" : ""
               }`}
             >
-              2nd
+              {getTranslation("Second Class", language)}
             </button>
             <button
               onClick={() => handleClassFilter("Third Class")}
-              className={`grade3 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade3 border ripple rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Third Class" ? "active-filter" : ""
               }`}
             >
-              3rd
+              {getTranslation("Third Class", language)}
             </button>
             <button
               onClick={() => handleClassFilter("Staff")}
-              className={`grade4 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade4 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Staff" ? "active-filter" : ""
               }`}
             >
-              STAFF
+              {getTranslation("Staff", language)}
             </button>
             {classFilter !== "All" && (
               <button
                 onClick={() => handleClassFilter("All")}
-                className="clear-filter border rounded-full min-w-[70px] p-2 text-center bg-red-300 ripple"
+                className="clear-filter ripple border rounded-full min-w-[60px] p-2 text-center bg-red-300"
               >
-                <i className="fa-solid fa-filter-circle-xmark"></i>{" "}
-                {language === "FR" ? " Effacer" : " Clear"}
+                <i className="fa-solid fa-filter-circle-xmark"></i>
+                {getTranslation("Clear", language)}
               </button>
             )}
           </div>
@@ -153,7 +145,7 @@ function App() {
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
                 <label className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-white leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-white peer-focus:text-white before:border-white peer-focus:before:!border-white after:border-white peer-focus:after:!border-white">
-                  {language === "FR" ? "Rechercher" : "Search"}
+                  {getTranslation("Search", language)}
                 </label>
               </div>
             </div>
@@ -162,38 +154,30 @@ function App() {
             <Popover placement="bottom-end">
               <PopoverHandler>
                 <button>
-                  <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center p-[30px]">
+                  <div className="fr border rounded-full bg-white w-[60px] h-[60px] flex items-center justify-center">
                     <p className="text-black">{language}</p>
                   </div>
                 </button>
               </PopoverHandler>
               <PopoverContent className="w-72 pb-0">
-                <div
-                  onClick={() => changeLanguage("FR")}
-                  className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
-                >
-                  <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
-                    <p className="text-white">FR</p>
+                {languages.map((lang) => (
+                  <div
+                    key={lang}
+                    onClick={() => changeLanguage(lang)}
+                    className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+                  >
+                    <div
+                      className={`fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center`}
+                    >
+                      <p className="text-white">{lang}</p>
+                    </div>
+                    <div>
+                      <Typography variant="h6" color="blue-gray">
+                        {lang}
+                      </Typography>
+                    </div>
                   </div>
-                  <div>
-                    <Typography variant="h6" color="blue-gray">
-                      Français
-                    </Typography>
-                  </div>
-                </div>
-                <div
-                  onClick={() => changeLanguage("EN")}
-                  className="flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
-                >
-                  <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
-                    <p className="text-white">EN</p>
-                  </div>
-                  <div>
-                    <Typography variant="h6" color="blue-gray">
-                      English
-                    </Typography>
-                  </div>
-                </div>
+                ))}
               </PopoverContent>
             </Popover>
           </div>

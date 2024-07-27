@@ -7,16 +7,17 @@ import {
   PopoverContent,
   Typography,
 } from "@material-tailwind/react";
-import passengerDataEN from "../../Data/passengerEN.json";
-import passengerDataFR from "../../Data/passengerFR.json";
 import DefaultPicture from "../../assets/default.png";
 import Ornement from "../Ornement";
 import OrnementLeft from "../OrnementLeft";
 import OrnementRight from "../OrnementRight";
+import useTranslations from "../../hooks/useTranslations";
+import { getTranslation } from "../../hooks/Translaations";
 
 const PassengerProfile = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { translations, languages } = useTranslations();
   const passengerID = parseInt(id);
   const [data, setData] = useState([]);
   const [passenger, setPassenger] = useState(null);
@@ -26,14 +27,12 @@ const PassengerProfile = () => {
 
   useEffect(() => {
     const loadData = () => {
-      if (language === "FR") {
-        setData(passengerDataFR);
-      } else {
-        setData(passengerDataEN);
+      if (translations[language]) {
+        setData(translations[language]);
       }
     };
     loadData();
-  }, [language]);
+  }, [language, translations]);
 
   useEffect(() => {
     const passenger = data.find(
@@ -69,10 +68,10 @@ const PassengerProfile = () => {
   };
 
   const getSurvivalStatus = () => {
-    if (language === "FR") {
-      return passenger.survived ? "Survivant" : "Décédé";
+    if (passenger.survived === 1) {
+      return getTranslation("Survived", language);
     } else {
-      return passenger.survived ? "Survived" : "Lost";
+      return getTranslation("Lost", language);
     }
   };
 
@@ -91,38 +90,30 @@ const PassengerProfile = () => {
             <Popover placement="bottom-end">
               <PopoverHandler>
                 <button>
-                  <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center p-[30px]">
+                  <div className="fr border rounded-full bg-white w-[60px] h-[60px] flex items-center justify-center">
                     <p className="text-black">{language}</p>
                   </div>
                 </button>
               </PopoverHandler>
               <PopoverContent className="w-72 pb-0">
-                <div
-                  onClick={() => changeLanguage("FR")}
-                  className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
-                >
-                  <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
-                    <p className="text-white">FR</p>
+                {languages.map((lang) => (
+                  <div
+                    key={lang}
+                    onClick={() => changeLanguage(lang)}
+                    className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+                  >
+                    <div
+                      className={`fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center`}
+                    >
+                      <p className="text-white">{lang}</p>
+                    </div>
+                    <div>
+                      <Typography variant="h6" color="blue-gray">
+                        {lang}
+                      </Typography>
+                    </div>
                   </div>
-                  <div>
-                    <Typography variant="h6" color="blue-gray">
-                      Français
-                    </Typography>
-                  </div>
-                </div>
-                <div
-                  onClick={() => changeLanguage("EN")}
-                  className="flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
-                >
-                  <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
-                    <p className="text-white">EN</p>
-                  </div>
-                  <div>
-                    <Typography variant="h6" color="blue-gray">
-                      English
-                    </Typography>
-                  </div>
-                </div>
+                ))}
               </PopoverContent>
             </Popover>
           </div>
@@ -174,23 +165,17 @@ const PassengerProfile = () => {
               </div>
 
               <p className=" py-3 px-10 leading-8">
-                <strong>
-                  {language === "EN" ? "Biography : " : "Biographie : "}
-                </strong>{" "}
+                <strong>{getTranslation("Bio", language)}</strong>{" "}
                 {passenger.description}
               </p>
               <p className=" py-3 px-10 leading-8">
-                <strong>
-                  {language === "EN"
-                    ? "Post Iceberg : "
-                    : "Avant collision  : "}
-                </strong>{" "}
+                <strong>{getTranslation("PostIceberg", language)}</strong>{" "}
                 {passenger.history}
               </p>
             </div>
           ) : (
             <>
-              <p>Passenger not found</p>
+              <p>{getTranslation("NotFound", language)}</p>
               <button onClick={() => window.history.back()}>
                 <i className="fa-regular fa-circle-left"></i> Go back
               </button>
