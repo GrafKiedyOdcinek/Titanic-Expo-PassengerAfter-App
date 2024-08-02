@@ -125,7 +125,7 @@ const PassengerProfile = () => {
       <main {...handlers}>
         <div className="flex flex-col justify-center items-center">
           {passenger ? (
-            <div className="passenger-profile flex flex-col justify-center items-center gap-1 p-6 sm:max-w-[80%] md:max-w-[80%] lg:max-w-[70%]">
+            <div className="passenger-profile flex flex-col justify-center items-center gap-1 p-6 sm:max-w-[80%] md:max-w-[80%] lg:max-w-[70%] min-w-[80%]">
               <div className="flex gap-10 w-full justify-between items-center">
                 <button
                   onClick={() =>
