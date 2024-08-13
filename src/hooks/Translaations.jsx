@@ -31,7 +31,7 @@ const translations = {
     "First Class": "1a",
     "Second Class": "2a",
     "Third Class": "3a",
-    Staff: "Personale",
+    Staff: "Equipaggio",
     Clear: "Cancella",
     Search: "Cerca",
     "No result for this search": "Nessun risultato per questa ricerca",
