@@ -127,8 +127,8 @@
         "role": "Lookout",
         "survived": true,
         "image": "https://www.encyclopedia-titanica.org/files/1/fleet-frederick.jpg",
-        "description": "Frederick Fleet was born on October 15, 1887, in Liverpool, England. Raised in a challenging environment, Fleet spent much of his early life in orphanages and foster care. He began his maritime career as a teenager, gaining experience on various ships before joining the White Star Line. By the early 1900s, Fleet had become a proficient seaman and was known for his keen eyesight, a vital skill for a lookout. In 1912, he was assigned to the RMS Titanic, the White Star Line's newest and largest passenger liner. As a member of the ship's crew, Fleet was responsible for keeping watch and ensuring the safety of the vessel during its maiden voyage. ",
-        "history": "Lookout Frederick Fleet survived by boarding lifeboat 6. After the disaster, he continued to work at sea and later sold newspapers outside Southampton docks​. Tragically, Fleet took his own life, perhaps due in part to the trauma of that tragic night in the North Atlantic. ",
+        "description": "Abandoned by mother, foster families",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -139,8 +139,8 @@
         "role": "Fireman",
         "survived": true,
         "image": "",
-        "description": "Born in 1887 in Southampton, Arthur John Priest worked as a stoker on various ships, including Titanic's sister ship the RMS Olympic, where he experienced a brush with disaster when Olympic collided with HMS Hawke in 1911. Despite the severity of the collision, Priest survived unscathed. His career as a stoker was demanding and perilous, requiring immense physical strength and endurance to manage the ship's boilers. Despite the dangers, Priest continued his work at sea, singing on as a stoker on Titanic.",
-        "history": "When the Titanic struck an iceberg, Priest, along with his fellow stokers, worked tirelessly to keep the boilers from exploding and to delay the ship's sinking, allowing more passengers to escape. As the situation worsened, he managed to secure a spot on a lifeboat. Priest's survival was remarkable given the harsh conditions faced by the crew below deck. His escape was part of a string of miraculous survivals; Priest also survived other maritime disasters, including the sinking of the RMS Lusitania and HMHS Britannic.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -151,8 +151,8 @@
         "role": "Wireless operator",
         "survived": "",
         "image": "",
-        "description": "Harold Sydney Bride was born on January 11, 1890, in London, England. He grew up with a fascination for wireless telegraphy, a relatively new technology at the time. After completing his education, he pursued training as a wireless operator. Bride secured a position with the Marconi Company, which provided radio communication equipment and operators for ships. His skills and dedication earned him assignments on various vessels, eventually leading to his role as the junior wireless operator on the RMS Titanic. Bride was responsible for sending and receiving wireless messages, a critical task for communication at sea. His career was on a promising trajectory, and he was excited about the opportunity to work on the world's most famous ship.",
-        "history": "As Titanic's junior wireless operator Bride and his superior, Jack Phillips, tirelessly sent distress signals, alerting nearby ships to the disaster. Despite the chaotic and perilous conditions, Bride remained at his post until water reached the wireless room. He later helped launch lifeboat Collapsible B, where he and other survivors endured frigid waters. After the sinking, Bride testified before the Titanic Inquiries. He continued to work as a wireless operatorand, and later served in World War I. His experience on the Titanic highlighted the critical role of wireless communication in maritime safety.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -163,8 +163,8 @@
         "role": "Engineer",
         "survived": true,
         "image": "",
-        "description": "Albert Ervine was born in Belfast, Ireland, and spent much of his early life in the bustling industrial city known for its shipbuilding. Growing up in a working-class family, Ervine was drawn to the maritime industry, which offered steady employment. He found work at the Harland and Wolff shipyard, where he gained experience in various roles related to ship maintenance and construction. By early 1912, Ervine had secured a position as a steward on the RMS Titanic. His duties included attending to the needs of passengers, ensuring their comfort, and maintaining the ship's living quarters. Ervine looked forward to the journey, seeing it as a significant step in his maritime career.",
-        "history": "On the night of April 14, 1912, after the Titanic hit an iceberg, Ervine assisted in the evacuation efforts, helping passengers reach lifeboats amid the chaos. Unlike many of his colleagues, Ervine managed to secure a place in a lifeboat, surviving the disaster. After being rescued by the RMS Carpathia, he faced the psychological aftermath of the tragedy, coping with the loss of colleagues and passengers.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -175,8 +175,8 @@
         "role": "Mail Clerk",
         "survived": "",
         "image": "",
-        "description": "John Starr March was a saloon steward aboard the RMS Titanic. March had previously worked on other White Star Line ships, gaining valuable experience in hospitality. Known for his reliability and pleasant demeanor, he was a valued crew member. His role on the Titanic involved long hours and meticulous attention to detail, contributing to the luxurious experience of the ship's affluent travelers.",
-        "history": "Albert Ervine, a steward, did not survive the Titanic disaster. His body was never recovered​ ",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -187,8 +187,8 @@
         "role": "Purser",
         "survived": "",
         "image": "",
-        "description": "Hugh Walter McElroy was the Chief Purser on the Titanic, responsible for overseeing passenger welfare and managing financial transactions on board. McElroy was an experienced and respected crew member, having served on various White Star Line vessels. His duties included handling tickets, managing staff, and ensuring passenger satisfaction. Known for his professionalism and attention to detail, McElroy played a crucial role in maintaining the ship's operations. His position required strong leadership and excellent organizational skills, making him a key figure in the smooth running of the Titanic.",
-        "history": "Chief Purser Hugh McElroy died in the sinking. He was responsible for overseeing the evacuation and ensuring passengers' safety.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -199,8 +199,8 @@
         "role": "Trimmer",
         "survived": "",
         "image": "",
-        "description": "Joseph Dawson was a coal trimmer on the RMS Titanic, working in the boiler room to ensure the ship's engines ran smoothly. Dawson's daily duties involved physically demanding labor, shoveling coal into the furnaces and maintaining the ship's power. Employed by the White Star Line, he had experience on other steamships, making him adept at managing the grueling work environment below deck. Dawson was known for his hard work and camaraderie with fellow crew members.",
-        "history": "Joseph Dawson, a coal trimmer, perished in the disaster. His grave in Halifax, Nova Scotia, became famous due to its association with the fictional character in the film 'Titanic.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -211,7 +211,7 @@
         "role": "",
         "survived": "",
         "image": "",
-        "description": "During the sinking, Daly was in his third-class cabin when he felt the impact. He managed to escape and found himself on an overturned collapsible lifeboat. He survived the disaster and was rescued by the Carpathia. After the Titanic, Daly emigrated to the United States and settled in New York. He often recounted his experiences of that fateful night, sharing his story with family and historians. Daly's survival was a testament to his resilience and determination to seek a better life in America​.",
+        "description": "",
         "history": "",
         "class": "Staff"
     },
@@ -223,8 +223,8 @@
         "role": "",
         "survived": "",
         "image": "",
-        "description": "Arthur Barrat was a third-class steward on the Titanic, responsible for assisting passengers and maintaining their accommodations. Barrat's duties included ensuring cleanliness, providing meals, and attending to passengers' needs in third-class. He had prior experience working on other ships, which equipped him with the skills needed for his role. Barrat's job required diligence and a friendly attitude, as he helped make the journey comfortable for those in the lower decks. ",
-        "history": "Arthur Barrat was a third-class steward on the Titanic. During the sinking, he assisted passengers and helped maintain order. Unfortunately, he did not survive the disaster, and his body was never recovered​.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -235,7 +235,7 @@
         "role": "",
         "survived": "",
         "image": "",
-        "description": "Dr. William Francis Norman O'Loughlin, was the senior surgeon on the RMS Titanic. Before joing Titanic at Southampton, Dr. O’Laughlin had a distinguished career in maritime medicine, serving on various White Star Line ships. His responsibilities included attending to medical needs, treating illnesses, and managing any health-related issues on board. Known for his expertise and compassionate care, Dr. O’Laughlin was highly respected by both passengers and crew. His presence on the Titanic ensured that the ship had access to professional medical services, contributing to the overall well-being of those on board.",
+        "description": "",
         "history": "",
         "class": "Staff"
     },
@@ -247,8 +247,8 @@
         "role": "",
         "survived": "",
         "image": "",
-        "description": "Luigi Gatti, born Gaspare Antonio Pietro Gatti on January 3, 1875, in Montalto Pavese, Italy, was an Italian businessman and restaurateur. Before joining the RMS Titanic, Gatti had an established career in the hospitality industry in London. He managed several notable establishments, including the Ritz restaurants 'Gatti's Adelphi' and 'Gatti's Strand'​.On the Titanic, Gatti was the manager of the À la Carte Restaurant, also known as the Ritz Restaurant, located on B Deck. This restaurant catered exclusively to first-class passengers, providing a luxurious dining experience with a French Louis XVI style decor. The restaurant featured a reception room for pre-dinner drinks and an adjoining Café Parisien​Gatti's responsibilities included overseeing the restaurant's operations and ensuring high service standards. His presence on the Titanic was part of the White Star Line's effort to provide an unparalleled dining experience for their most affluent passengers.",
-        "history": "During the sinking, Luigi Gatti was last seen assisting passengers into lifeboats. Gatti did not survive the disaster, and his body was never recovered​.",
+        "description": "",
+        "history": "",
         "class": "Staff"
     },
     {
@@ -379,8 +379,8 @@
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "William Sloper was an American stockbroker returning from a European vacation on the Titanic. He was a successful financier from New Britain, Connecticut. Before boarding, he spent time in Paris, where he enjoyed the cultural offerings and social scene. Sloper was known for his financial expertise and social connections, which made him a well-regarded figure in his community. On the Titanic, he was traveling in first class, reflecting his affluent status. His journey was intended to be a relaxing return trip to the United States, where he would resume his work in the financial sector.",
-        "history": "William Sloper, an American stockbroker, survived by boarding lifeboat 7. He faced rumors of having dressed as a woman to escape, which he vehemently denied. He later served in World War I and continued his career in finance.",
+        "description": "",
+        "history": "",
         "class": "1st"
     },
     {
@@ -391,8 +391,8 @@
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Irene Harris, a prominent theatrical producer, was traveling with her husband, Henry Burkhardt Harris. They were influential figures in New York's theatre scene, having produced numerous successful Broadway shows. Before boarding the Titanic, they toured Europe, visiting key cultural centers and enjoying the arts. The couple was well-known in social circles for their contributions to the theatrical world. Irene's journey on the Titanic was part of their return trip to New York, where they planned to continue their work in the theatre industry, promoting new productions and supporting the arts community.",
-        "history": "Irene Harris, a theatrical producer, survived the Titanic disaster by boarding lifeboat 8. She continued her work in theater, but her husband, Henry Burkhardt Harris, did not survive.",
+        "description": "Theater people Irene was a law school student working on the west end - Irene fell and broke her elbow going downstairson the grand staircase",
+        "history": "",
         "class": "1st"
     },
     {
@@ -403,8 +403,8 @@
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Henry Harris, a successful theatre producer, was traveling with his wife Irene. Known for producing hit Broadway shows, Henry was a significant figure in the American theatre industry. Prior to boarding the Titanic, the couple spent several months touring Europe, enjoying the cultural and artistic offerings. They visited theatres, met with fellow producers, and explored potential collaborations. The Titanic voyage was their return to New York, where Henry had several projects in the pipeline. His work had a profound impact on the theatrical scene, and he was respected for his vision and dedication to the arts.",
-        "history": "Henry Harris, a prominent theatrical producer, did not survive the sinking. His body was never recovered, but his wife Irene survived and continued their work in the theater industry.",
+        "description": "Theater producer",
+        "history": "",
         "class": "1st"
     },
     {
@@ -415,8 +415,8 @@
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Berthe Antoine Mayné, a Belgian singer, traveled under the alias Mrs. de Villiers, accompanying her wealthy lover, Quigg Edmond Baxter. She was known in European circles for her performances in various cabarets and musical venues. Before boarding the Titanic, Berthe performed in several European cities, gaining a reputation for her talent and charm. Her relationship with Baxter provided her with opportunities to travel and experience a luxurious lifestyle. The Titanic voyage was meant to be a continuation of their travels together, enjoying the amenities and prestige associated with first-class travel on the world's most famous ship.",
-        "history": "Berthe Mayné, a Belgian singer, survived by boarding lifeboat 9. She continued her singing career after the disaster and often spoke of her Titanic experience.",
+        "description": "Singer - was going to Canada to marry her hockey player fiancee who died in the sinking",
+        "history": "",
         "class": "1st"
     },
     {
@@ -427,8 +427,8 @@
         "role": "Nanny",
         "survived": true,
         "image": "",
-        "description": "Marjorie Newell, traveling with her father Arthur, was returning from a cultural tour of Europe. They visited significant historical sites, museums, and attended various cultural events. Marjorie, a young woman of education and refinement, enjoyed the opportunity to learn and experience different cultures. Before boarding the Titanic, they spent time in cities like Paris and Rome, absorbing the rich history and art. The journey back to the United States was eagerly anticipated, as they looked forward to sharing their experiences with family and friends. Marjorie's background in the arts made this trip particularly enriching and memorable.",
-        "history": "Marjorie Newell, traveling with her father, survived by boarding lifeboat 6. She continued to live a quiet life in the United States after the disaster.",
+        "description": "Returning from trip to middle east with father and sister",
+        "history": "",
         "class": "1st"
     },
     {
@@ -439,8 +439,8 @@
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Major Arthur Godfrey Peuchen was a Canadian businessman and militia officer known for his yachting experience. He was a member of the prestigious Royal Canadian Yacht Club and had significant maritime knowledge. Before boarding the Titanic, Peuchen attended business meetings and social events in Europe. His background in chemistry and manufacturing made him a respected figure in the business community. The Titanic voyage was part of his return trip to Canada, where he intended to resume his business activities. Peuchen's interest in sailing and maritime affairs made him particularly interested in the Titanic's design and capabilities. He had crossed the Atlantic 40 times and was openly critical of Captain Smith's management of ships.",
-        "history": "Major Arthur Godfrey Peuchen was a Canadian businessman and militia officer who had significant experience in yachting. He was a first-class passenger on the RMS Titanic. On the night of the sinking, Peuchen was one of the few men allowed into a lifeboat, specifically lifeboat 6, after it was discovered that it lacked sufficient crew to man the oars. His yachting experience proved valuable in navigating the lifeboat. Peuchen’s calm demeanor and practical skills were instrumental in maintaining order among the lifeboat's occupants. After being rescued by the RMS Carpathia, Peuchen returned to Canada and testified at both the American and British inquiries into the disaster, providing valuable insights into the events leading up to the sinking and the inadequacies of the lifeboat arrangements. He continued his career in business and remained an active member of the Royal Canadian Yacht Club. Peuchen's testimony and actions were noted for their integrity and his commitment to public safety.",
+        "description": "Canadian Business man Had crossed the Atlantic 40 times and was openly critical of captain Smith",
+        "history": "",
         "class": "1st"
     },
     {
@@ -451,8 +451,8 @@
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Benjamin Guggenheim was an American businessman and member of the wealthy Guggenheim family, known for their mining enterprises. He boarded the Titanic after a business trip to Europe, where he conducted meetings and oversaw his various interests. Accompanied by his valet Victor Giglio, Guggenheim was known for his lavish lifestyle and significant contributions to the arts. Before the voyage, he spent time in Paris, enjoying the city's cultural scene.",
-        "history": "Benjamin Guggenheim was an American businessman and member of the wealthy Guggenheim family, known for their mining enterprises. He boarded the Titanic after a business trip to Europe, where he conducted meetings and oversaw his various interests. Accompanied by his valet Victor Giglio, Guggenheim was known for his lavish lifestyle and significant contributions to the arts. Before the voyage, he spent time in Paris, enjoying the city's cultural scene.",
+        "description": "",
+        "history": "",
         "class": "1st"
     },
     {
@@ -463,8 +463,8 @@
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Emily Hart was emigrating to the United States with her three children: Eva, Geoffrey, and Arthur. They were seeking new beginnings and better opportunities, leaving behind their life in England. Before boarding the Titanic, Emily prepared for the move by arranging their affairs and saying goodbye to family and friends. The Hart family looked forward to reuniting with relatives already settled in America. Emily's decision to emigrate was driven by the hope of providing a better future for her children. The journey on the Titanic was a significant step in their plan to start a new life in the United States..",
-        "history": "Victor Giglio, valet to Benjamin Guggenheim, was responsible for ensuring his employer's comfort at all times, including during their return trip from Europe. He managed Guggenheim's personal needs, travel arrangements, and assisted with his day-to-day activities. Giglio's background in personal service made him a trusted and indispensable part of Guggenheim's entourage. The journey on the Titanic was part of his duties, ensuring that Guggenheim's needs were met throughout the voyage.",
+        "description": "",
+        "history": "",
         "class": "1st"
     },
     {
@@ -576,7 +576,7 @@
         "class": "2nd"
     },
     {
-        "passengerID": 50,
+        "passengerID": 49,
         "grade": "Passenger",
         "name": "Mary Emma Corey",
         "age": 32,
@@ -584,83 +584,83 @@
         "survived": false,
         "image": "",
         "description": "Mary Corey (née Miller,) was born in Pennsylvania in August 1879. She grew up in and around Pittsburgh as the eldest of nine siblings, Mary took work as a schoolteacher at the Westlake School before marrying Percy Corey in 1911. Corey’s work as a superintendent with a petroleum company took him to Burma (now called Myanmar,) where his wife joined him. Mary got pregnant while staying with her husband abroad, but decided to return to Pennsylvania to give birth. One of Corey’s workers at the petroleum company had a wife in a similar condition: a woman named Claire Karnes. As Mrs. Karnes was also from Pittsburgh the two pregnant ladies decided to travel together. The two made their way to Great Britain and procured a 2nd berth aboard Titanic. Fellow 2nd passenger Lawrence Beesley wrote of Mary and Claire, having sat near them in the 2nd library: Close beside me--so near I cannot avoid hearing scraps of their conversations--are two American ladies, both dressed in white, young, probably friends only: one had been to India and is returning by way of England, the other is a schoolteacher in America, a graceful girl with a distinguished air heightened by a pair of pince-nez. Perhaps the two ladies had selected the Titanic in hopes that the highly touted comforts of White Star’s 2nd compartments would make the trials of traveling while pregnant more tolerable.",
-        "history": "Lawrence Beesley, an English science teacher, survived the sinking by boarding lifeboat 13. He later wrote a detailed account of his experiences in the book 'The Loss of the SS Titanic.' Beesley continued his teaching career and became a notable figure for his firsthand recounting of the disaster.",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 51,
+        "passengerID": 50,
         "grade": "Passenger",
         "name": "Emily Ester Louisa Hart",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "Emily Hart was emigrating to the United States with her three children: Eva, Geoffrey, and Arthur. They were seeking new beginnings and better opportunities, leaving behind their life in England. Before boarding the Titanic, Emily prepared for the move by arranging their affairs and saying goodbye to family and friends. The Hart family looked forward to reuniting with relatives already settled in America. Emily's decision to emigrate was driven by the hope of providing a better future for her children. The journey on the Titanic was a significant step in their plan to start a new life in the United States.",
-        "history": "Emily Esther Louisa Hart, traveling with her three children, survived the sinking. They were rescued by the Carpathia. After the disaster, Hart and her children settled in the United States, where she faced the challenges of rebuilding their lives after such a traumatic event.",
+        "description": "",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 52,
+        "passengerID": 51,
         "grade": "Passenger",
         "name": "Alice Frances Louisa Phillips",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "Alice Phillips, a nurse, was traveling alone to the United States in pursuit of employment opportunities in the healthcare sector. Before boarding the Titanic, Alice worked in England, gaining experience and saving money for her journey. She was known for her dedication to her patients and her ambition to advance her career. Alice's trip on the Titanic was part of her plan to explore new opportunities in America, where the demand for skilled nurses was high. She anticipated finding work in a hospital or private practice, hoping to build a successful career and contribute to the healthcare community.",
-        "history": "Alice Frances Louisa Phillips, a second-class passenger, survived the sinking by boarding lifeboat 11. She continued to live in the United States after the disaster. Phillips' survival story is part of the larger narrative of second-class passengers who managed to escape the sinking ship.",
+        "description": "",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 53,
+        "passengerID": 52,
         "grade": "Passenger",
         "name": "Lawrence Beesley ",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "Lawrence Beesley, an English science teacher, was on the Titanic to visit his brother in Canada and to study American education systems. Beesley was a graduate of Cambridge University and had a keen interest in scientific education. Before boarding the Titanic, he spent time preparing for his journey by researching educational practices in North America. Beesley's intention was to gather insights that could be applied in British schools. The trip also provided an opportunity for personal reflection and professional development. Beesley spent much of the voyage in the second class library, enjoying the accumulated knowledge stored there.",
+        "description": "",
         "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 54,
+        "passengerID": 53,
         "grade": "Passenger",
         "name": "Father Byles",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "Father Thomas Byles, a Catholic priest, was traveling to New York to officiate his brother's wedding. Father Byles served as a parish priest in Ongar, Essex, where he was well-respected for his pastoral care and spiritual leadership. He was known for his dedication to his parishioners and his commitment to his faith. The trip to New York was an important family event, and Father Byles looked forward to reuniting with his family and performing the wedding ceremony. ",
-        "history": "Father Thomas Byles, a Catholic priest, was traveling to officiate his brother's wedding. He stayed on the ship to hear confessions and offer prayers for those left behind. Byles did not survive the disaster. He is remembered for his dedication and sacrifice, and efforts have been made to consider him for sainthood.",
+        "description": "",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 55,
+        "passengerID": 54,
         "grade": "Passenger",
         "name": "Henriette Virginie Yvois",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "Henriette Virginie Yvois, a French governess, was traveling to the United States to begin a new employment position. Before boarding the Titanic, Henriette worked in France, where she was responsible for the education and care of children in wealthy households. She was known for her proficiency in languages and her ability to provide high-quality education. The journey on the Titanic represented a new chapter in her career, with the promise of better opportunities and greater financial stability.",
-        "history": "Henriette Virginie Yvois, a French governess, was traveling to start a new job in the United States. She did not survive the sinking, and her body was never recovered. Yvois' story reflects the hopes and dreams of many immigrants who perished in the disaster.",
+        "description": "",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 56,
+        "passengerID": 55,
         "grade": "Passenger",
         "name": "René Jacuqes Lévy",
         "age": 32,
         "role": "Passenger",
         "survived": "",
         "image": "",
-        "description": "René Jacques Lévy, a French jewelry merchant, was on a business trip to America, aiming to expand his trade and explore new markets. Before boarding the Titanic, Lévy conducted business in France, where he established a reputation for his fine jewelry and business acumen. He was known for his ability to source high-quality gems and his skill in crafting exquisite pieces. Lévy's journey to the United States was part of his strategy to grow his business and connect with American clients. ",
-        "history": "René Jacques Lévy, a French jewelry merchant, was traveling on business. He did not survive the sinking, and his body was never recovered. Lévy's tragic end highlights the loss of life among the Titanic's many professionals and businesspeople who were seeking new opportunities.",
+        "description": "",
+        "history": "",
         "class": "2nd"
     },
     {
-        "passengerID": 57,
+        "passengerID": 56,
         "grade": "Passenger",
         "name": "Mariyam Assāf Khalīl | Mariana Assaf | Maria (Mariam) Elias Wahba | Mikhail Assaf Taama",
         "age": 32,
@@ -672,7 +672,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 58,
+        "passengerID": 57,
         "grade": "Passenger",
         "name": "Catherine Mcgowan",
         "age": 32,
@@ -684,7 +684,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 60,
+        "passengerID": 58,
         "grade": "Passenger",
         "name": "Elin Hakkarainen",
         "age": 32,
@@ -696,7 +696,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 61,
+        "passengerID": 59,
         "grade": "Passenger",
         "name": "Jamīlah Nīqūla Yārid",
         "age": 32,
@@ -708,7 +708,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 62,
+        "passengerID": 60,
         "grade": "Passenger",
         "name": "Fang Lang |Wing Sun Fong | 方榮山",
         "age": 32,
@@ -720,7 +720,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 63,
+        "passengerID": 61,
         "grade": "Passenger",
         "name": "Sidney Leslie Goodwin",
         "age": 32,
@@ -732,7 +732,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 64,
+        "passengerID": 62,
         "grade": "Passenger",
         "name": "Catherine Katie Peters",
         "age": 32,
@@ -744,7 +744,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 65,
+        "passengerID": 63,
         "grade": "Passenger",
         "name": "David John 'Dai' Bowen",
         "age": 32,
@@ -756,7 +756,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 66,
+        "passengerID": 64,
         "grade": "Passenger",
         "name": "Halīm Mubārik",
         "age": 32,
@@ -768,7 +768,7 @@
         "class": "3rd"
     },
     {
-        "passengerID": 67,
+        "passengerID": 65,
         "grade": "Passenger",
         "name": "Al-Amīr Fāris Shihāb",
         "age": 32,
@@ -780,148 +780,135 @@
         "class": "3rd"
     },
     {
-        "passengerID": 68,
+        "passengerID": 66,
         "grade": "Passenger",
         "name": "As'ad Tannūs",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "As'ad Tannūs, a Syrian immigrant, was traveling to the United States in search of better economic opportunities. Before boarding the Titanic, Tannūs lived in Syria, where he faced limited prospects and economic hardship. He decided to emigrate to America, hoping to find work and improve his quality of life. Tannūs saved money for his journey and made arrangements to leave his homeland. ",
-        "history": "As'ad Tannūs, a Syrian immigrant, was traveling in third class seeking better economic opportunities in the United States. On the night of the sinking, he managed to secure a spot in a lifeboat and was rescued by the Carpathia. After the disaster, Tannūs settled in the United States and worked hard to build a new life. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 69,
+        "passengerID": 67,
         "grade": "Passenger",
         "name": "Laṭīfah al-Ba'qlīnī",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Laṭīfah al-Ba'qlīnī, traveling with As'ad Tannūs, was also seeking a new life in America. Before boarding the Titanic, she lived in Syria, where she faced economic challenges and limited opportunities. Laṭīfah and As'ad planned their journey together, pooling their resources and making the necessary preparations. Their goal was to find better living conditions and greater opportunities in the United States. The voyage on the Titanic represented a hopeful start for both, as they looked forward to the promise of a better future in a new country.",
-        "history": "Latifeh Baaklini, 24, and her three little girls, almost ran out of time. They barely found spots in a lifeboat, assigned primarily to women and children, as maritime law dictates. Abruptly,her teenage daughter, Adele, decided to head back to her cabin. Her father, businessman Nagib Kiameh, later wrote in a letter dated July 4, 1912, that “her greed almost killed her.”The lifeboat had actually been lowered into the sea without her, despite Latifeh’s screams. Adele returned a few moments later, with a pair of socks wrapped around her neck and tied with a rope. It was later revealed that she had placed her gold coins inside her socks and her arms were full of pots of debs (molasses) that she wanted to take with her, because she had a hard time making it.",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 70,
+        "passengerID": 68,
         "grade": "Passenger",
         "name": "Saiide Barbara and Catherine David Barbara",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Saiide and Catherine Barbara were emigrating to the United States for better opportunities. Before boarding the Titanic, they lived in Lebanon, where they faced economic difficulties and sought a more prosperous life. They made arrangements to travel together, hoping to find work and support each other in their new environment. The journey on the Titanic was part of their plan to start afresh in America, where they aimed to improve their living conditions and secure a stable future. Saiide and Catherine Barbara were both housekeepers bound for Ottawa, Canada.",
-        "history": "Saiide and Catherine Barbara, Lebanese immigrants, were traveling to the United States for better opportunities. On the night of the sinking, they managed to board a lifeboat and were rescued by the Carpathia. After the disaster, they settled in the United States.",
+        "description": "Two Syrian women boarded together in Cherbourg. Saiide was the younger of the two looked to be about 18, and Catherine, the older woman, possibly an aunt, was in her mid-forties. Saiide and Catherine Barbara were both housekeepers bound for Ottawa from Kafr Miski in Syria/Lebannon. ",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 71,
+        "passengerID": 69,
         "grade": "Passenger",
         "name": "The Andersson Family",
         "age": 32,
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Alfrida Konstantia Brogren Andersson, and her five children were emigrating to the United States to join her husband Ernst Andersson, who had already settled there. Before boarding the Titanic, Mrs. Andersson and her children – Sigrid, Ingeborg, Ebba, Ellis, and Gosta – prepared for the journey by closing their affairs in Sweden and saying goodbye to loved ones. They looked forward to reuniting with Ernst and starting a new life together in America. The family's journey was marked by anticipation and the promise of a better future. The Titanic voyage was a significant step in their relocation, offering the hope of a brighter and more secure life in their new home.",
-        "history": "The Andersson family, consisting of Mrs. Alfrida Andersson and her five children, were emigrating to the United States to join her husband. On the night of the sinking, they were all trapped in the lower decks and did not survive. None of their bodies were recovered. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 72,
+        "passengerID": 70,
         "grade": "Passenger",
         "name": "Catherine Katie McCarthy",
         "age": 32,
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Catherine 'Katie' McCarthy, an Irish immigrant from Tipperary, boarded Titanic at Queenstown. Katie had considered going to America for many years but was held back because she had a fear of traveling long distances. However, in early 1912 she finally resolved to join her sister Mary in Guttenburg, New Jersey, where she planned to live for a few months before heading west to Chicago where her brother John lived. ",
-        "history": "Catherine 'Katie' McCarthy, an Irish immigrant, boarded the Titanic at Queenstown. She survived the sinking by boarding lifeboat 15. After the disaster, Katie settled in New Jersey, where she joined her sister. She later moved to Chicago to be with her brother. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 73,
+        "passengerID": 71,
         "grade": "Passenger",
         "name": "Julia Barry",
         "age": 32,
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "The youngest of 12 children, Julia Barry hailed from County Kerry in Ireland. She had already established residence in the U.S. in Springfield, Massachussets, but returned home in 1910 to care for her ailing mother. Julia originally planned to go back to the States on Celtic, but transferred to Titanic in order to travel sooner. As she was making her way to Queenstown to board Titanic, she lost her umbrella, which several in her party took as a bad omen.",
-        "history": "Julia Barry, an Irish immigrant, was returning to the United States after visiting her ailing mother in Ireland. She did not survive the Titanic sinking. Her body was never recovered. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 74,
+        "passengerID": 72,
         "grade": "Passenger",
         "name": "Mohamed Badt",
         "age": 32,
         "role": "Passenger",
         "survived": false,
         "image": "",
-        "description": "Mohamed Badt, 40, was a farmer from Syria (now Lebanon). He  boarded Titanic as a third class passenger at Cherbourg.",
-        "history": "Mohamed Badt, a Syrian farmer, boarded the Titanic as a third-class passenger. He did not survive the sinking, and his body was never recovered.",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 75,
+        "passengerID": 73,
         "grade": "Passenger",
         "name": "Ida Augusta Margareta Andersson",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Ida Margreta Andersson was born on November 24, 1873, in Sventorp, Skaraborgs County, Sweden, to Anders Johan and Anna Greta Carlsson. She had seven siblings: Johan Alfred, Anna Kristina Elisabet, August Linus, Hilda Maria, Karl Oskar, Hilma Susanna, and Josef Timoteus. Ida first emigrated to America on May 26, 1893, but returned to Sweden by June 1894 and possibly made another trip to the USA later.In the late 1890s, Ida worked as a maid in Skövde and later as a housekeeper at Lagmansbro Manor. Her sister Hilda emigrated to the USA in 1887, married Axel Johnson in 1890, and died in childbirth in 1909, leaving behind ten children. Ida likely traveled on the Titanic to help care for these children and possibly to marry Axel. She boarded the Titanic at Southampton as a third-class passenger.",
-        "history": " Ida Augusta Margareta Andersson perished in the sinking. Her body was never recovered from the sea.",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 76,
+        "passengerID": 74,
         "grade": "Passenger",
         "name": "Choong Foo",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Mr Choong Foo, from Hong Kong, was travelling to New York City with eight colleagues from the Donald Line's Annetta. He was a fireman who was presumably transferring to the States to find work on another ship. Previous research believed that Foo and his colleagues were stowaways on the Titanic, but all eight boarded the Titanic at Southampton as fare-paying third class passengers. Lee Bing, Chang Chip, Choong Foo, Ling Hee, Ah Lam, Len Lam, Fang Lang and Lee Ling travelled together on the same ticket.",
-        "history": "One of eight Chinese sailors onboard Titanic, Choong Foo was rescused by Carpathia. Six of the eight sailors survived. After arriving in New York, the Chinese survivors left for Cuba on 20 April aboard the Donald Line's Annetta. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 77,
+        "passengerID": 75,
         "grade": "Passenger",
         "name": "Neshan Krekorian",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "Neshan Krekorian, born on May 12, 1886, in Keghi, Turkish-occupied Armenia, fled to Canada due to persecution of Christians by Turkish Muslims. Heading to Hamilton, Ontario, he boarded the Titanic at Cherbourg as a third-class passenger with ticket number 2654.",
+        "description": "",
         "history": "",
         "class": "3rd"
     },
     {
-        "passengerID": 78,
+        "passengerID": 76,
         "grade": "Passenger",
         "name": "David Vartanian",
         "age": 32,
         "role": "Passenger",
         "survived": true,
         "image": "",
-        "description": "David Vartanian, born on April 15, 1890, in Oror, Kiği, Turkey, was an ethnic Armenian facing severe persecution under the Ottoman regime. A laborer, he married Mary Baidzar in 1911. Due to escalating political and religious unrest, Vartanian and compatriots, including Neshan Krekorian, fled to Canada, leaving his wife behind. He boarded the Titanic at Cherbourg as a third-class passenger with ticket number 2658.",
-        "history": "David was rescued by boarding lifeboat.15. The day of the rescue, 15 April 1912, was his 22nd birthday.Following his arrival in New York, David went to Hamilton, Ontario, Canada.   He lived there for several years before eventually settling in the US. He thought his wife had been a victim of the Armenian Genocide but discovered that she was still alive. David sent money for her to meet him. The couple reunited at Niagara Falls reunited after an eleven year separation.",
-        "class": "3rd"
-    },
-    {
-        "passengerID": 79,
-        "grade": "Passenger",
-        "name": "Sage family",
-        "age": 32,
-        "role": "Passenger",
-        "survived": true,
-        "image": "",
-        "description": "The Sage family, consisting of John and Annie Sage and their nine children, were leaving England to start a new life in Florida, where John had purchased a fruit orchard near Jacksonville. John and his eldest son George had spent some time in America working as cooks and saving enough money to bring the entire family to the States. They were originally scheduled to travel on the liner Philadelphia, but the coal strike necessitated their transfer to Titanic. ",
-        "history": "The Sage family, including John and Annie Sage and their nine children, were traveling to Florida to start a new life. On the night of the sinking, they were unable to secure spots in the lifeboats and perished in the disaster. None of their bodies were recovered. ",
+        "description": "",
+        "history": "",
         "class": "3rd"
     }
-    
 ]
