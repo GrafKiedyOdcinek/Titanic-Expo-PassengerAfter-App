@@ -87,6 +87,52 @@ function App() {
     <div className="p-4" {...handlers}>
       <OrnementLeft />
       <OrnementRight />
+
+      <main className="p-10">
+        <div className="flex gap-10 p-10 flex-wrap items-center justify-center">
+          {currentItems.length > 0 ? (
+            currentItems.map((passenger) => (
+              <div
+                key={passenger?.name}
+                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[20%] lg:w-[15%] justify-center"
+              >
+                <Link
+                  to={`/passenger/${passenger?.passengerID}`}
+                  key={passenger?.name}
+                  className="flex flex-col items-center gap-2 w-full ripple"
+                >
+                  <div className="passenger-img">
+                    <img
+                      src={passenger.image ? passenger.image : DefaultPicture}
+                      alt={passenger.name}
+                    />
+                  </div>
+                  <p className="text-center min-h-[50px]">{passenger?.name}</p>
+                </Link>
+              </div>
+            ))
+          ) : (
+            <p>
+              {language === "FR"
+                ? "Pas de résultat pour cette recherche"
+                : "No result for this search"}
+            </p>
+          )}
+        </div>
+        {filteredData.length > postsPerPage && (
+          <div className="pagination flex justify-center gap-4 mt-4 items-center">
+            <Pagination
+              length={filteredData.length}
+              postsPerPage={postsPerPage}
+              handlePagination={handlePagination}
+              currentPage={currentPage}
+            />
+          </div>
+        )}
+      </main>
+      <div className="flex justify-center">
+        <div className="separator border mt-6 w-[80%]"></div>
+      </div>
       <div className="flex justify-center">
         <header className="flex  sm:flex-row justify-center items-center gap-4 w-[65%]">
           <div className="grade flex gap-4">
@@ -183,51 +229,7 @@ function App() {
           </div>
         </header>
       </div>
-      <div className="flex justify-center">
-        <div className="separator border mt-6 w-[80%]"></div>
-      </div>
-      <main className="p-10">
-        <div className="flex gap-10 p-10 flex-wrap items-center justify-center">
-          {currentItems.length > 0 ? (
-            currentItems.map((passenger) => (
-              <div
-                key={passenger?.name}
-                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[20%] lg:w-[15%] justify-center"
-              >
-                <Link
-                  to={`/passenger/${passenger?.passengerID}`}
-                  key={passenger?.name}
-                  className="flex flex-col items-center gap-2 w-full ripple"
-                >
-                  <div className="passenger-img">
-                    <img
-                      src={passenger.image ? passenger.image : DefaultPicture}
-                      alt={passenger.name}
-                    />
-                  </div>
-                  <p className="text-center min-h-[50px]">{passenger?.name}</p>
-                </Link>
-              </div>
-            ))
-          ) : (
-            <p>
-              {language === "FR"
-                ? "Pas de résultat pour cette recherche"
-                : "No result for this search"}
-            </p>
-          )}
-        </div>
-        {filteredData.length > postsPerPage && (
-          <div className="pagination flex justify-center gap-4 mt-4 items-center">
-            <Pagination
-              length={filteredData.length}
-              postsPerPage={postsPerPage}
-              handlePagination={handlePagination}
-              currentPage={currentPage}
-            />
-          </div>
-        )}
-      </main>
+
       <footer>
         <Ornement />
         <FullScreenButton />

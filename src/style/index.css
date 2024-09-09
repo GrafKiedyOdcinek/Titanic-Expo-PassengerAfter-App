@@ -139,3 +139,11 @@ footer {
   /* background: #0d1625; */
   width: 100%;
 }
+
+header.flex.sm\:flex-row.justify-center.items-center.gap-4.w-\[65\%\] {
+  position: fixed;
+  bottom: 15%;
+  background: #0d1625e8;
+  border-radius: 30px;
+  z-index: 9;
+}
